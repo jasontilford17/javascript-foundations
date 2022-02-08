@@ -4,12 +4,14 @@
   "description": "Practice programs for mastering the basics of JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "author": "Turing School",
   "license": "MIT",
   "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0"
   }
 }
